@@ -1,19 +1,25 @@
 .item-row {
-  background-color: #2FC18C;
-  color: #023031;
+  background-color: rgba(15, 15, 15, 1);
+  color: white;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  align-items: center;
+  width: 32vw;
 }
 
 .item-row > div {
-  margin: 5px;
+  width: 50%;
+  word-break: break-all;
 }
 
 .item-row-desc {
   flex-grow: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .item-row-desc-check {
@@ -21,15 +27,13 @@
 }
 
 
-/* Variation of work by @mrhyddenn for Radios */
-
 
 .check {
   cursor: pointer;
   position: relative;
-  margin: auto;
+  margin: 15px;
   width: 18px;
-  height: 18px;
+  height: auto;
   -webkit-tap-highlight-color: transparent;
   transform: translate3d(0, 0, 0);
 }

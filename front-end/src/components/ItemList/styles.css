@@ -1,5 +1,19 @@
 .item-list {
   text-align: left;
-  width: 100%;
+  width: auto 30vw;
   margin: 0;
+  height: 20vw;
+  overflow-y: scroll; 
+  overflow-y: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(15, 15, 15, 1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
 }
