@@ -6,7 +6,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 32vw;
+  width: auto 32vw;
+  /* height: 10px; */
 }
 
 .item-row > div {
@@ -22,6 +23,10 @@
   align-items: center;
 }
 
+.item-row-desc input {
+  height: 30px;
+  font-size: 18px;
+}
 .item-row-desc-check {
   text-decoration: line-through;
 }
@@ -98,4 +103,18 @@
   stroke-dashoffset: 42;
   transition: all 0.2s linear;
   transition-delay: 0.15s;
+}
+
+.input-edit {
+  width: 22vw;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container-button-edit {
+  display: flex;
+}
+
+.container-edit {
+ display: flex;
 }

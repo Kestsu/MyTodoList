@@ -1,7 +1,9 @@
 .item-list {
   text-align: left;
   width: auto 30vw;
-  margin: 0;
+  max-width: 600px;
+  /* margin-inline: 1000px; */
+  /* margin: 0; */
   height: 20vw;
   overflow-y: scroll; 
   overflow-y: auto;
