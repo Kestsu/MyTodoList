@@ -34,14 +34,14 @@ function ItemRow({ index, id, description, check }) {
               <div className="container-button-edit">
                 <button
                   data-testid={`todo-task-edit-save-btn-${index}`}
-                  style={{ marginRight: "5px", marginTop: "5px" , marginBottom: "5px" }}
+
                   onClick={editSave}
                 >
                   <FaCheck />
                 </button>
                 <button
                   data-testid={`todo-task-edit-cancel-btn-${index}`}
-                  style={{ marginRight: "5px", marginTop: "5px" , marginBottom: "5px" }}
+
                   onClick={() => setEditMode(false)}
                 >
                   <FaRegWindowClose />
@@ -72,17 +72,15 @@ function ItemRow({ index, id, description, check }) {
             >
               {description}
             </div>
-            <div style={{ width: "66px" }}>
+            <div style={{ width: "100px", display: "flex", margin: "10px"}}>
               <button
                 data-testid={`todo-task-edit-mode-btn-${index}`}
-                style={{ marginRight: "5px", marginTop: "5px" , marginBottom: "5px" }}
                 onClick={() => setEditMode(true)}
               >
                 <FaEdit />
               </button>
               <button
                 data-testid={`todo-task-remove-btn-${index}`}
-                style={{ marginRight: "5px", marginTop: "5px" , marginBottom: "5px" }}
                 onClick={() => rmTask(id)}
               >
                 <FaRegWindowClose />
