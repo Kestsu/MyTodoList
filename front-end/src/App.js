@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <Logo />
-        <header>
+        <header className="header">
           <ButtonLightDark />
           <span className="title">
             <h2>Todo List</h2>
