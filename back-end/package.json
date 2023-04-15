@@ -6,6 +6,7 @@
   "main": "./src/api/server.js",
   "scripts": {
     "start": "node .",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
