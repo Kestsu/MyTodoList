@@ -4,6 +4,9 @@
   "description": "Back-end do app Todo List",
   "author": "Trybe",
   "main": "./src/api/server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node .",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
