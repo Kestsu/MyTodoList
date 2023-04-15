@@ -19,6 +19,8 @@ O aplicativo possui:
 - Context
 - CSS
 - Api
+- Axios
+- Express
 - Docker ( Em processo ainda )
 
 ## Execução da aplicação localmente
