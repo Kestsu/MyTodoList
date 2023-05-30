@@ -21,9 +21,29 @@ O aplicativo possui:
 - Api
 - Axios
 - Express
-- Docker ( Em processo ainda )
+- Docker
 
-## Execução da aplicação localmente
+## Execução da aplicação pelo docker
+
+1. Faça o git clone na pasta local.
+
+```bash
+git clone git@github.com:Kestsu/MyTodoList.git
+```
+
+2. Instale as dependências.
+
+```bash
+npm install
+```
+
+3. Execute o comando abaixo pra rodar o docker.
+
+```bash
+cd docker && docker-compose up
+```
+
+## Execução da aplicação manualmente
 
 1. Faça o git clone na pasta local.
 
